@@ -57,6 +57,7 @@ public class GameController extends AbstractFacade<Game>{
             //Optimal option 
             data[id].setNombre(nombre);
             data[id].setGenero(genero);
+            data[id].setDesarrollador(desarrollador);
             
             return true;
         
